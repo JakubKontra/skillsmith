@@ -1,5 +1,5 @@
 {
-  "name": "skillsmith",
+  "name": "@jakubkontra/skillsmith",
   "version": "0.1.0",
   "description": "Write AI coding skills once, export to Claude, Cursor, Windsurf, Copilot, and Codex",
   "type": "module",
