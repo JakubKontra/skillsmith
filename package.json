@@ -1,0 +1,41 @@
+{
+  "name": "skillsmith",
+  "version": "0.1.0",
+  "description": "Write AI coding skills once, export to Claude, Cursor, Windsurf, Copilot, and Codex",
+  "type": "module",
+  "main": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "bin": {
+    "skillsmith": "./bin/cli.mjs"
+  },
+  "scripts": {
+    "build": "tsup",
+    "dev": "tsup --watch",
+    "test": "vitest run",
+    "test:watch": "vitest"
+  },
+  "files": [
+    "dist",
+    "bin"
+  ],
+  "keywords": [
+    "ai",
+    "skills",
+    "claude",
+    "cursor",
+    "windsurf",
+    "copilot",
+    "codex",
+    "template-engine"
+  ],
+  "license": "MIT",
+  "dependencies": {
+    "gray-matter": "^4.0.3"
+  },
+  "devDependencies": {
+    "@types/node": "^25.6.0",
+    "tsup": "^8.3.0",
+    "typescript": "^5.7.0",
+    "vitest": "^3.0.0"
+  }
+}
